@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+width: 1920px;
+height: auto;
+margin: 0;
+padding: 0;
+}
+
+.logo{
+    width: 385px;
+    height: 79px;
+    float: left;
+}
+
+.akun{
+    display: flex;
+    padding-top: 25px;
+    float: right;
+}
+
+.pp{
+    vertical-align: username;
+}
+
+.username{
+    font-variant: "Roboto";
+    font-size: 18px;
+    padding-left: 6px;
+    font-weight: 50;
+    font-style: regular;
+    padding-top: 4px;
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    padding-top: 45px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.intro{
+    padding-top: 105px;
+    margin-left: 32px;
+    margin-right: 32px;
+    text-align: justify;
+    font-size: 24px;
+}
+
+.tab{
+    
+    overflow: hidden;
+    border: 0px;
+    display:inline-flexbox;
+    margin-left: 32px;
+    margin-right: 32px;
+    font-size: 0;
+    padding-top: 30px;
+}
+
+.tab button{
+    background-color: #75A1F2;
+    height: 56px;
+    width: 272px;
+    font-size: 24px;
+    border-color: white;
+    
+}
+
+.tabcontent{
+    position: absolute;
+    padding-top: 32px;
+    margin-left: 32px;
+    width: 1360px;
+    height: auto;
+    background-color: #def5fb;
+    border-color: black;
+    border: 1px;
+    padding-left: 116px;
+}
+
+.info{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.subjudul{
+    padding-bottom: 32px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.list{
+    width:1144px;
+    line-height: 55px;
+    display:block;
+    background-color: transparent;
+    border:1px solid #75A1F2;
+    text-align: left;
+    font-size: 24px;
+    padding-left: 32px;
+    
+}
+
+.material{
+    padding-bottom: 32px;
+}

@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+}
+
+.logo {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.kanan {
+    background-image: url("/Background/background\ sign-up.png");
+    background-size: contain;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+}
+
+.a {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+    margin-left: 180px;
+    font-size: 23px;
+}
+
+.kiri {
+    width: 100%;
+    z-index: 2;
+}
+
+.kembali {
+    box-sizing: border-box;
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    left: 185px;
+    top: 570px;
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffcc5c;
+}
+
+.kembali:hover {
+    background-color: #feb619;
+}
+
+.unggah {
+    border: 1px solid #004085;
+    position: absolute;
+    padding: 16px 36px;
+    border-radius: 5px;
+    display: inline-block;
+    top: 75vh;
+    left: 70vh;
+    text-decoration: none;
+    background-color: #132f63d4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21;
+}
+
+.unggah:hover {
+    background-color: #004085;
+}
+
+.unggahBtn {
+    text-decoration: none;
+    color: white;
+}
+
+.kembaliBtn {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,106 @@
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 4vh;
+    margin-left: 6vh;
+}
+
+.background {
+    margin-left: 1000px;
+    margin-top:-25px;
+    width: 338px;
+    position: absolute;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.a {
+    width: 650px;
+    text-align: justify;
+    font-family: Arial;
+    font-size: 34px;
+
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+.p {
+    width: 700px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 18px;
+
+    margin-left: 45px;
+    margin-top: 40px;
+}
+
+.border1 {
+    border-style: solid;
+    border-color:rgb(219, 219, 219);
+    width: 250px;
+    height: 250px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.border2 {
+    border-style: solid;
+    border-color:rgb(219, 219, 219);
+    width: 250px;
+    height: 250px;
+    margin-left: 450px;
+    margin-top: -256px;
+    border-radius: 10px;
+}
+
+.d1 {
+    font-family: Arial;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 150px;
+    font-weight: bolder;
+}
+
+.s1 {
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+
+.d2 {
+    font-family: Arial;
+    font-size: 14px;
+    margin-left: 55px;
+    margin-top: 150px;
+    font-weight: bolder;
+}
+
+.s2 {
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.iconify {
+    position: absolute;
+    margin-left: 85px;
+    margin-top: -200px;
+    font-size: 80px;
+    color: rgb(219, 219, 219);
+}

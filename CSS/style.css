@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@300;400;700;900&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/Background/Vector\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 17vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 4vh;
+    margin-left: 6vh;
+}
+
+.button-home,
+.button-course,
+.button-about,
+.button-support {
+    border: none;
+    background-color: transparent;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 6h;
+    margin-right: 6vh;
+    transition: all 0.4s;
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    padding-top: 3vh;
+}
+
+.button-home:hover,
+.button-course:hover,
+.button-about:hover,
+.button-support:hover {
+    border-bottom: 2px solid #037272;
+}
+
+.mid {
+    display: flex;
+}
+
+.gambar {
+    margin-top: 5vh;
+    margin-left: 18vh;
+    margin-right: 3vh;
+}
+
+.box1 {
+    box-sizing: content-box;
+    width: 50%;
+    margin-left: 6vh;
+    margin-top: 10vh;
+}
+
+.box1 h1 {
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    width: 100%;
+    margin-top: 10vh;
+    margin-left: 2px;
+    text-align: justify;
+}
+
+.p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 24px;
+    width: 100%;
+    margin-top: 5vh;
+    margin-left: 2px;
+    text-align: justify;
+}
+
+.bottom {
+    margin-top: 4.5vh;
+    text-align: center;
+    margin-left: 85vh;
+}
+
+.bdaf {
+    border: transparent;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 8px 98px;
+    background-color: #fabb5a;
+    margin-right: 10vh;
+    transition: all 0.3s ease-out;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+.bdaf:hover {
+    transform: scale(1.1);
+}
+
+.bmas {
+    border: transparent;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 8px 98px;
+    background-color: #fabb5a;
+    margin-right: 10vh;
+    transition: all 0.3s ease-out;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+}
+
+.bmas:hover {
+    transform: scale(1.1);
+}

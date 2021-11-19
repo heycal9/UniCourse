@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@300;400;700;900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 4vh;
+    margin-left: 6vh;
+}
+
+.home {
+    position: absolute;
+    width: 75px;
+    height: 22px;
+    left: 853px;
+    top: 44px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.box1 {
+    box-sizing: border-box;
+    height: 210px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+    padding: 10px;
+
+    right: 10px;
+    text-align: justify;
+    left: 1055px;
+    top: 155px;
+
+    margin: 20px;
+    width: 750px;
+    margin-left: 290px;
+    margin-right: none;
+    margin-top: 39px;
+}
+
+.button {
+    margin-top: 45px;
+    margin-right: 40px;
+}
+
+.button-home, .button-course, .button-about, .button-support {
+    border: none;
+    background-color: transparent;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 6vh;
+    margin-right: 6vh;
+    transition: all 0.4s;
+    text-decoration: none;
+    color: black;
+}
+
+.button-home:hover, .button-course:hover, .button-about:hover, .button-support:hover {
+    border-bottom: 2px solid #037272;
+}
+
+.pa1, .pb1 {
+    font-size: 28px;
+}
+
+.box2 {
+    box-sizing: border-box;
+    height: 210px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+    padding: 10px;
+
+    right: 10px;
+    text-align: justify;
+    left: 1055px;
+    top: 2005px;
+
+    margin: 20px;
+    width: 750px;
+    margin-left: 290px;
+    margin-right: none;
+    margin-top: 30px;
+}
+
+.pa2, .pb2 {
+    font-size: 16px;
+}
+
+.lihat1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 240px;
+    height: 30px;
+    left: 1055px;
+    top: 255px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    
+    background-color: #ffcc5c;
+    color:  #FFFFFF;
+}
+
+.lihat1:hover {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.bayar1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 240px;
+    height: 30px;
+    left: 1055px;
+    top: 292.5px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    
+    background-color: #ffcc5c;
+    color:  #FFFFFF;
+}
+
+.bayar1:hover {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.lihat2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 240px;
+    height: 30px;
+    left: 1055px;
+    top: 494.5px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    
+    background-color: #ffcc5c;
+    color:  #FFFFFF;
+}
+
+.lihat2:hover {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.bayar2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 240px;
+    height: 30px;
+    left: 1055px;
+    top: 532px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    
+    background-color: #ffcc5c;
+    color:  #FFFFFF;
+}
+
+.bayar2:hover {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.harga1 {
+    margin-left: 760px;
+    margin-top: -55px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.harga2 {
+    margin-left: 760px;
+    margin-top: -92px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.gambar1 {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    margin-left: -265px;
+    margin-top: -7px;
+}
+
+.gambar2 {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    margin-left: -265px;
+    margin-top: -7px;
+}

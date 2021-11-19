@@ -1,0 +1,148 @@
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 4vh;
+    margin-left: 6vh;
+}
+
+.background {
+    margin-left: 1000px;
+    margin-top:-25px;
+    width: 338px;
+    position: absolute;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.p1 {
+    font-size: 27px;
+    font-family: Arial;
+}
+
+.p2 {
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.p {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.back {
+    box-sizing: border-box;
+    position: absolute;
+    width: 140px;
+    height: 35px;
+    left: 185px;
+    top: 570px;
+    margin-top: -30px;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    
+    background-color: #132f63d4;
+    color:  #FFFFFF;
+}
+
+.next {
+    box-sizing: border-box;
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    left: 500px;
+    top: 570px;
+    margin-top: -30px;
+    margin-left: -50px;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    
+    background-color :#ffcc5c;
+    color:  #FFFFFF;
+}
+
+.payment-wallet {
+    position: absolute;
+    margin-left: 125px;
+    margin-top: 175px;
+    width: 81px;
+}
+
+.payment-gopay {
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 160px;
+    width: 170px;
+}
+
+.payment-dana {
+    position: absolute;
+    margin-left: 590px;
+    margin-top: 160px;
+    width: 170px;
+}
+
+.payment-ovo {
+    position: absolute;
+    margin-left: 345px;
+    margin-top: 300px;
+    width: 120px;
+}
+
+input {
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: absolute;
+    top: -1px;
+    margin-top: 145px;
+    *overflow: hidden;
+}
+
+.cb-wallet {
+    top: -100px;
+    margin-left: -25px;
+    border-radius: 100px;
+}
+
+.cb-gopay {
+    top: -85px;
+    margin-left: -25px;
+    border-radius: 100px;
+}
+
+.cb-dana {
+    top: -85px;
+    margin-left: -25px;
+    border-radius: 100px;
+}
+
+.cb-ovo {
+    top: -120px;
+    margin-left: -25px;
+    border-radius: 100px;
+}

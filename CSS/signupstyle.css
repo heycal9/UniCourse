@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,900&family=Roboto:wght@300;400;500&display=swap');
+* {
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.kanan {
+    background-image: url("/Background/background\ sign-up.png");
+    background-size: contain;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+}
+
+.kiri {
+    width: 100%;
+    margin-left: 15vh;
+    padding-top: 10vh;
+    z-index: 2;
+}
+
+.box1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.box2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 10vh;
+}
+
+.boxField {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300 bolder;
+    padding-top: 5vh;
+    margin-left: 5.5vh;
+}
+
+.row {
+    display: flex;
+}
+
+.boxes {
+    padding-top: 3vh;
+    margin-right: 5vh;
+}
+
+.boxCheck {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 3vh;
+    margin-left: 5.5vh;
+}
+
+.daftarButton {
+    margin-top: 2vh;
+    text-decoration: none;
+    padding: 10px 36px;
+    display: inline-block;
+    background-color: #132F634D;
+    border: 1px solid #004085;
+    text-align: center;
+    font-family: 'Roboto' sans-serif;
+    border-radius: 3px;
+    color: white;
+}
+
+.daftarButton:hover {
+    background-color: #004085;
+}
